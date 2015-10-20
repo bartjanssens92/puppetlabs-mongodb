@@ -13,7 +13,7 @@ class mongodb::repo::apt inherits mongodb::repo {
       include  => {
         'src'  => false,
         'deb'  => true,
-      }
+      },
       key        => {
         'id'     => '492EAFE8CD016A07919F1D2B9ECBEC467F0CEB10',
         'server' => 'hkp://keyserver.ubuntu.com:80',
